@@ -70,6 +70,7 @@ watch(
   >
     <el-menu
       ref="menuRef"
+      :key="locale"
       router
       mode="horizontal"
       popper-class="pure-scrollbar"
